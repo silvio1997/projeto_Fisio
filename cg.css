@@ -39,8 +39,11 @@ nav img{
     margin-right: 50px;
 }
 header{
+    margin: auto;
     background-image:linear-gradient(to top, var(--cor3),var(--cor1)); 
-    padding: 220px;
+    padding-bottom: 180px;
+    padding-top: 180px;
+    padding-left: 70px;
     font-family: 'Lobster, cursive',sans-serif;
 }
 
@@ -114,8 +117,6 @@ article{
     background-color: #1AACAD;
     padding: 70px;
     padding-top: 20px;
-    max-width: 1425px;
-    min-width: 320px; 
 }
 #sobre h2{
     text-align: center;
@@ -125,7 +126,6 @@ article{
     margin-bottom: 90px;
 }
 #sobre  p{
-    text-align: center;
     color: white;
 }
 footer{
