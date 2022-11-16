@@ -39,10 +39,10 @@ nav img{
     margin-right: 50px;
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor4),var(--cor1));
-    padding: 160px;   
+    background-image: linear-gradient(to bottom, var(--cor4),var(--cor1));  
     max-width: 1425px;
     min-width: 320px; 
+    margin: auto;
 }
 
 header h1{
