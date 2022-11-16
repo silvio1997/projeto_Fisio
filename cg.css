@@ -41,7 +41,6 @@ nav img{
 header{
     background-image:linear-gradient(to top, var(--cor3),var(--cor1)); 
     padding: 220px;
-    margin: auto;
     font-family: 'Lobster, cursive',sans-serif;
 }
 
