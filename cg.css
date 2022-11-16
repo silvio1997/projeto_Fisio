@@ -42,7 +42,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor4),var(--cor1));  
     max-width: 1425px;
     min-width: 320px; 
-    margin: auto;
+    padding: 400px;
 }
 
 header h1{
@@ -62,7 +62,7 @@ header p{
 main{
     max-width: 1425px;
     min-width: 320px;
-    padding: 160px;
+    margin: auto;
 }
 
 main h2{
