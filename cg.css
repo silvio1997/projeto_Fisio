@@ -17,6 +17,7 @@ nav{
     padding: 70px;
     padding-bottom: 15PX;
     padding-top: 15px;
+    margin: auto;
 }
 
 #texto{
@@ -115,8 +116,8 @@ article{
 }
 #sobre{
     background-color: #1AACAD;
-    padding: 70px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 #sobre h2{
     text-align: center;
@@ -127,6 +128,7 @@ article{
 }
 #sobre  p{
     color: white;
+    text-align: center;
 }
 footer{
     text-align: center;
