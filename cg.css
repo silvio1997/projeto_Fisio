@@ -15,8 +15,8 @@ body{
 
 nav{
     padding: 70px;
-    padding-bottom: 15PX;
-    padding-top: 15px;
+    padding-bottom: 10PX;
+    padding-top: 10px;
 }
 
 #texto{
@@ -146,9 +146,7 @@ footer h3{
 
 /*servicos  */
 
-#servicos{
-    margin: auto;
-}
+
 main h1{
     text-align: center;
     color: var(--cor4);
