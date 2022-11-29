@@ -177,6 +177,9 @@ main .servicos{
     border-radius: 10px 10px 0px 0px;
     width: 100%;
 }
+.servicos img{
+    border-radius: 10px 10px 0px 0px;
+}
 
 main .servicos:hover{
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.438);
