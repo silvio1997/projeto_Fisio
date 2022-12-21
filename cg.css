@@ -186,10 +186,23 @@ main .servicos:hover{
     border-color: var(--cor3);
 }
 
+#ventosaterapia{
+    text-align: left;
+}
+#ventosaterapia h1{
+    text-align: center;
+}
+
+#ventosaterapia p{
+    margin-left: 60px;
+}
 
 #ventosa{
     display: inline-block;
     max-width: 400px;
+
+    right:10%;
+    transform: translate(50%,5%);
 }
 
 #ventosa img{
