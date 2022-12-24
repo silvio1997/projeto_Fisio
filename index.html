@@ -13,7 +13,7 @@
 <body onresize="mudaTamanho()">
     <menu>
         <img style="width: 100px ; border-radius: 50%;" src="imagens/logo.png" alt="">
-        <span  id="hamburguer"  class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <span id="hamburguer"  class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <ul id="texto">
             <a href="index.html"><li>HOME</li></a>
             <a href="servicos.html"><li>SERVIÇOS</li></a>
@@ -70,11 +70,6 @@
     <script>
         function clickMenu(){
             if(texto.style.display == "none"){
-                texto.style.display = "block"
-            }else{texto.style.display = "none"}
-        }
-        function mudaTamanho(){
-            if(window.innerWidth>= 768){
                 texto.style.display = "block"
             }else{texto.style.display = "none"}
         }
