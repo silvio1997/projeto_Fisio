@@ -50,7 +50,7 @@ menu li{
     font-weight: bold;
     display: block;
     background-color:#ADD8E6;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 menu li:hover{
     color:var(--cor4);
