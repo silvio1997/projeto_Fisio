@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+@media screen and (max-width:767px) {
+    
+
+
 :root{
     --cor1:#1AACAD;
     --cor2:#ADD8E6;
@@ -17,31 +22,41 @@ menu{
     padding: 70px;
     padding-bottom: 10PX;
     padding-top: 10px;
+    text-align: center;
 }
+
 #hamburguer{
-    display: none;
+    display: block;
+    text-align: left;
+    color: #231651;
+    cursor: pointer;
 }
 
 #texto{
     margin-top: 17px;
-    text-align: left;
+    display: none;
 }
 
+
 menu li{
-    padding: 10px;
-    margin: 17px;
     color: var(--cor3);
     text-decoration: none;
     font-weight: bold;
-    display: inline-block;
+    display: block;
+    background-color:#ADD8E6;
 }
 menu li:hover{
-    color:var(--cor2);
+    color:var(--cor4);
     transition-duration: 0.1s;
 }
 menu img{
     margin-right: 50px;
 }
+
+ul a{
+    text-decoration: none;
+}
+
 header{
     background-image:linear-gradient(to top, var(--cor3),var(--cor1)); 
     padding-bottom: 180px;
@@ -68,7 +83,7 @@ header p{
 
 
 main{
-    text-align: center;
+   text-align: center; 
 }
 
 main h2{
@@ -88,9 +103,10 @@ article{
     padding: 30px;
 }
 .imagens{
+    text-align: center;
     max-width: 600px;
     display: inline-block;
-    margin-right: 100px;
+
 }
 
 #beneficio{
@@ -99,11 +115,11 @@ article{
     margin-bottom: 200px;
 }
 #beneficio h2{
-    text-align: left;
+    text-align: center;
     font-size: 2.5em;
 }
 #beneficio h3{
-    text-align: left;
+    text-align: center;
     font-size: 1.7em;
     color: #1AACAD;
 }
@@ -212,4 +228,4 @@ main .servicos:hover{
 #ventosa img{
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.438);
     border-radius: 10px;
-}
+}}
