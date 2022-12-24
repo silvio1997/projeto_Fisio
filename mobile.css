@@ -19,7 +19,7 @@ body{
 }
 
 menu{
-    padding: 70px;
+    padding: 20px;
     padding-bottom: 10PX;
     padding-top: 10px;
     text-align: center;
@@ -34,6 +34,7 @@ menu{
 
 #texto{
     margin-top: 17px;
+    font-size: larger;
     display: none;
 }
 
@@ -44,6 +45,7 @@ menu li{
     font-weight: bold;
     display: block;
     background-color:#ADD8E6;
+    margin-bottom: 60px;
 }
 menu li:hover{
     color:var(--cor4);
